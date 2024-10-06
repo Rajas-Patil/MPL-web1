@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinest</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <section id="header">
+        <a href=""><img src="/img/banner/Agrinest logo.jpg" alt="weblogo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="SignIn.html">Sign In</a></li>
+                <li><a href="cart.html"><i class="fa-light fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section> 
+
+    <!-- <section id="hero">
+            <h1>Agriculture</h1>
+            <h2>Market Place</h2>
+            <img src="/img/banner/agriculture image.jpg" alt=""> -->
+    <!-- <button>Shop Now</button> -->
+
+    <!-- </section> -->
+     
+
+    <!-- --------------------------------Products -------------------------------------------->
+    <div class="container">
+        <h1>Products</h1>
+        <div class="product-list">
+    
+          <!-- Product 1 -->
+          <div class="product-card" id="product-1">
+            <img src="/img/products/bioboostplantfood.jpg" alt="Product 1">
+            <h2>Bio Boost Plant Food</h2>
+            <p>Rs.600</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('agriculture', 699.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('agriculture', 699.99)">Buy Now</button>
+            </div>
+          </div>
+    
+          <!-- Product 2 -->
+          <div class="product-card" id="product-2">
+            <img src="img/products/Hortigrade.jpg" alt="Product 2">
+            <h2>Hortigrade</h2>
+            <p>Rs.499</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Laptop Pro', 1299.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Laptop Pro', 1299.99)">Buy Now</button>
+            </div>
+          </div>
+    
+          <!-- Product 3 -->
+          <div class="product-card" id="product-3">
+            <img src="img/products/Nurtirich.jpg" alt="Product 3">
+            <h2>Nurtirich</h2>
+            <p>Rs.399</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Wireless Earbuds', 99.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Wireless Earbuds', 99.99)">Buy Now</button>
+            </div>
+          </div>
+    
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/Hariyali.jpg" alt="Product 4">
+            <h2>Hariyali</h2>
+            <p>Rs.799</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/Tomatoseeds.jpg" alt="Product 4">
+            <h2>Grow Delight-Tomato seeds</h2>
+            <p>Rs.899</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/watermelonseeds.jpg" alt="Product 4">
+            <h2>Go Vegan-Watermelon Seeds</h2>
+            <p>Rs.799</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/mangoseed.jpg"Product 4">
+            <h2>Kalagura gampa-Mango Seed</h2>
+            <p>Rs.999</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/cashew.jpg" alt="Product 4">
+            <h2>Nuticious-Cashew</h2>
+            <p>Rs.899</p>/p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/gardeninghandtool.jpg" alt="Product 4">
+            <h2>Gardenin hand Tool</h2>
+            <p>Rs.1200</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/farmerfriendshowel.jpg" alt="Product 4">
+            <h2>Showel</h2>
+            <p>RS.1499</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/seedplanter.jpg" alt="Product 4">
+            <h2>Portable Seed Planter</h2>
+            <p>Rs.2999</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/fertilizerrosesandorchids.jpg" alt="Product 4">
+            <h2>Organic Fertilizer for Roses and Orchids</h2>
+            <p>Rs.999</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/Usagriseeds.jpg" alt="Product 4">
+            <h2>Us AgriSeeds</h2>
+            <p>Rs.799</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/peaagrihybridseeds.jpg" alt="Product 4">
+            <h2>Pea Hybrid seeds</h2>
+            <p>Rs.1000</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/jamunseeds.jpg" alt="Product 4">
+            <h2>Jamun Seeds</h2>
+            <p>Rs.699</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="product-card" id="product-4">
+            <img src="img/products/gardensoil.jpg" alt="Product 4">
+            <h2>Garden Soil</h2>
+            <p>Rs.999</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Smartwatch V3', 249.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Smartwatch V3', 249.99)">Buy Now</button>
+            </div>
+          </div>
+          
+    
+          <!-- Product 5 -->
+          <div class="product-card" id="product-5">
+            <img src="img/products/immunesupportcapsule.jpg" alt="Product 5">
+            <h2>Elderberry Fruit Extract</h2>
+            <p>$499.99</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Gaming Console', 499.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Gaming Console', 499.99)">Buy Now</button>
+            </div>
+          </div>
+          <div class="product-card" id="product-5">
+            <img src="/img/products/potassiumwaterfertilizer.jpg" alt="Product 5">
+            <h2>Potassium Water</h2>
+            <p>Rs.677</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Gaming Console', 499.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Gaming Console', 499.99)">Buy Now</button>
+            </div>
+          </div>
+          <div class="product-card" id="product-5">
+            <img src="img/products/Tomatoseeds.jpg" alt="Product 5">
+            <h2>Tomato Seeds</h2>
+            <p>Rs.799</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Gaming Console', 499.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Gaming Console', 499.99)">Buy Now</button>
+            </div>
+          </div>
+          <div class="product-card" id="product-5">
+            <img src="/img/products/gardensoil.jpg" alt="Product 5">
+            <h2>Garden Soil</h2>
+            <p>Rs.999</p>
+            <div class="product-actions">
+              <button class="add-to-cart" onclick="addToCart('Gaming Console', 499.99)">Add to Cart</button>
+              <button class="buy-now" onclick="buyNow('Gaming Console', 499.99)">Buy Now</button>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+      <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/banner/Agrinest logo.jpg" alt="" width="60" height="70">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>Lorem ipsum dolor sit amet.</p>
+            <p><strong>Phone:</strong>Lorem ipsum dolor sit amet.</p>
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col-1"></div>
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+    </footer>
+
+    
+   
+    
+   
+   
+   <!---
+   
+     Buy now page
+    div class="container">
+       <h1>Product Details</h1>
+       <div class="product-details-card">
+         <img id="product-image" src="https://via.placeholder.com/300" alt="Product Image">
+         <div class="details-info">
+           <h2 id="product-name">Product Name</h2>
+           <p id="product-price">$0.00</p>
+           <p id="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Morbi ut arcu nec nunc tempor venenatis.</p>
+           <button class="buy-now" onclick="proceedToCheckout()">Proceed to Checkout</button>
+         </div>
+       </div>
+     </div>
+   
+     <script>
+       // Function to load the product details from query parameters
+       window.onload = function() {
+         const urlParams = new URLSearchParams(window.location.search);
+         const productName = urlParams.get('product');
+         const productPrice = urlParams.get('price');
+         
+         document.getElementById('product-name').textContent = productName;
+         document.getElementById('product-price').textContent = `$${productPrice}`;
+         // Optionally, update product image and description based on product (this can be dynamic)
+       };
+   
+       // Function to simulate checkout
+       function proceedToCheckout() {
+         alert('Proceeding to checkout...');
+         // Redirect to a checkout page or integrate with a payment gateway
+       }
+     </script>
+   
+   
+   Add to cart feature
+   <div class="container">
+       <h1>Your Cart</h1>
+       <div id="cart-items">
+         Cart items will be dynamically loaded here 
+       <</div>
+   
+       <h2>Total: $<span id="cart-total">0.00</span></h2>
+       <button class="checkout" onclick="proceedToCheckout()">Checkout</button>
+     </div>
+   
+      <script>
+       // Load cart items from localStorage
+       window.onload = function() {
+         let cart = JSON.parse(localStorage.getItem('cart')) || [];
+         const cartItemsDiv = document.getElementById('cart-items');
+         let total = 0;
+   
+         if (cart.length === 0) {
+           cartItemsDiv.innerHTML = "<p>Your cart is empty!</p>";
+         } else {
+           cart.forEach((item, index) => {
+             total += item.productPrice;
+             const itemDiv = document.createElement('div');
+             itemDiv.className = 'cart-item';
+             itemDiv.innerHTML = `
+               <h3>${item.productName}</h3>
+               <p>Price: $${item.productPrice}</p>
+               <button onclick="removeFromCart(${index})">Remove</button>
+             `;
+             cartItemsDiv.appendChild(itemDiv);
+           });
+   
+           document.getElementById('cart-total').textContent = total.toFixed(2);
+         }
+       };
+   
+       // Function to remove item from cart
+       function removeFromCart(index) {
+         let cart = JSON.parse(localStorage.getItem('cart')) || [];
+         cart.splice(index, 1);  // Remove the item at the specified index
+         localStorage.setItem('cart', JSON.stringify(cart));
+         window.location.reload();  // Reload the page to update the cart
+       }
+   
+       // Proceed to checkout
+       function proceedToCheckout() {
+         alert('Proceeding to checkout...');
+         // You can implement the actual checkout flow here
+       }
+     </script> -->
+     ->
+
+    <!-------------------------------- Product---------------------------------------- -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
